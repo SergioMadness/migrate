@@ -1,6 +1,7 @@
-# migrate
+# migrate (SergioMadness' fork)
+## Without cassandra & sqlite drivers
 
-[![Build Status](https://travis-ci.org/mattes/migrate.svg?branch=master)](https://travis-ci.org/mattes/migrate)
+
 [![GoDoc](https://godoc.org/github.com/mattes/migrate?status.svg)](https://godoc.org/github.com/mattes/migrate)
 
 A migration helper written in Go. Use it in your existing Golang code 
@@ -22,8 +23,6 @@ __Features__
 ## Available Drivers
 
  * [PostgreSQL](https://github.com/mattes/migrate/tree/master/driver/postgres)
- * [Cassandra](https://github.com/mattes/migrate/tree/master/driver/cassandra)
- * [SQLite](https://github.com/mattes/migrate/tree/master/driver/sqlite3)
  * [MySQL](https://github.com/mattes/migrate/tree/master/driver/mysql) ([experimental](https://github.com/mattes/migrate/issues/1#issuecomment-58728186))
  * Bash (planned)
 
